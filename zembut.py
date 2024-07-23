@@ -174,7 +174,7 @@ def main():
             ngetik(Fore.YELLOW + "Keluar..." + Style.RESET_ALL)
             break
         else:
-            ngetik(Fore.RED + "Perintah tidak dikenal. Perintah yang tersedia: create <filename>, setpassword <filename> password1 password2 ..., crack, stop, uploadzip <file_path>, uploadpasswordlist <file_path>, exit.\n" + Style.RESET_ALL)
+            ngetik(Fore.RED + "Perintah tidak dikenal. Perintah yang tersedia: c <filename>, setw <filename> password1 password2 ..., crack, stop, zip <file_path>, uploadpasswordlist <file_path>, exit.\n" + Style.RESET_ALL)
 
 if __name__ == "__main__":
     main()
